@@ -4,34 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto 1</title>
+    <meta name="description" content="Proyecto 1 de la asignatura de Desarrollo Web en Entorno Servidor, basado en la pagina de PC Componentes.">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <a href="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" title="PC Componentes">
-            <img src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" alt="PC Componentes">
+            <img class="pccomponentes" src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" alt="PC Componentes" rel="noopener">
         </a>
-        <nav class="nav">
+        <nav class="navbar">
             <ul>
-                <div class="dropdown">
-                    <li><a href="componentes.html" alt="componentes">Componentes</a></li>
-                    <div class="dropdown-content">
-                        <a href="procesadores.html" alt="procesadores">Procesadores</a>
-                        <a href="tarjetas graficas.html" alt="tarjetas graficas">Tarjetas gráficas</a>
-                        <a href="placas base.html" alt="placas base">Placas base</a>
-                        <a href="memorias ram.html" alt="memorias ram">Memorias RAM</a>
-                        <a href="discos duros.html" alt="discos duros">Discos duros</a>
-                        <a href="fuentes de alimentacion.html" alt="fuentes de alimentacion">Fuentes de alimentación</a>
-                        <a href="cajas.html" alt="cajas">Cajas</a>
+                <div class="search">
+                    <button class="choose">
+                        <i class="hover-down"></i>
+                    </button>
+                    <div class="menu-search">
+                        <a href="#" alt="todo el catalogo">Todo el catalogo</a>
+                        <a href="#" alt="reacondicionados">Reacondicionados</a>
                     </div>
+                </div>
                 <li><input type="text" placeholder="Buscar"></li>
                 <li><a href="mi cuenta.html" alt="cuenta">Mi cuenta</a> </li>
                 <li><a href="mi cesta.html" alt="cesta">Mi cesta</a> </li>
             </ul>
         </nav>
     </header>
+    <section class="ofertas">
+        <a href="https://www.pccomponentes.com/especial-clima" target="_blank" rel="noopener" alt="Descuento en aire acondicionado">Descuentos en aire acondicionado</a>
+        <a href="https://www.pccomponentes.com/acer-week" target="_blank" rel="noopener" alt="Acer week">Acer week</a>
+        <a href="https://www.pccomponentes.com/days-of-play-sony" target="_blank" rel="noopener" alt="Ofertas PlayStation 5">Ofertas PlayStation 5</a>
+        <a href="https://www.pccomponentes.com/especial-televisores-euro-2024" target="_blank" rel="noopener" alt="TV hasta -50%">TV hasta -50%</a>
+        <a href="https://www.pccomponentes.com/ocio-conectado" target="_blank" rel="noopener" alt="Ofertas en moviles">Ofertas en moviles</a>
+    </section>
+    <p>Expertos en tecnologia con un servicio 5 estrellas</p>
+    <section class="ofertas imagenes">
+        <a href="https://www.pccomponentes.com/ocio-conectado" target="_blank" rel="noopener"><img src="https://img.pccomponentes.com/pcblog/1716760800000/500x320-mobility-v3.png" alt="ofertas smartphones y wereables"></a>
+        <a href="https://www.pccomponentes.com/acer-week" target="_blank" rel="noopener"><img src="https://img.pccomponentes.com/pcblog/1716760800000/500x320-acer-week.png" alt="Acer week"></a>
+        <a href="https://www.pccomponentes.com/especial-televisores-euro-2024" target="_blank" rel="noopener"><img src="https://img.pccomponentes.com/pcblog/1717020000000/500x320-tv-v3.png" alt="Ofertas Televisores"></a>
+        <a href="https://www.pccomponentes.com/days-of-play-sony" target="_blank" rel="noopener"><img src="https://img.pccomponentes.com/pcblog/1717020000000/768x180-playstation.png" alt="Days of Play"></a>
+        <a href="https://www.pccomponentes.com/especial-clima" target="_blank" rel="noopener"><img src="https://img.pccomponentes.com/pcblog/1717020000000/768x180-clima-v2.png" alt="Ofertas en aire acondicionado"></a>
+    </section>
+    <h2>Ofertas destacadas de la semana</h2>
+    <section class="ofertas destacadas">
+        <a href="https://www.pccomponentes.com/acer-nitro-v-15-anv15-51-579p-intel-core-i5-13420h-16gb-512gb-ssd-rtx-4050-156" target="_blank" rel="noopener">
+            <img src="https://thumb.pccomponentes.com/w-150-150/articles/1079/10798070/1534-acer-nitro-v-15-anv15-51-579p-intel-core-i5-13420h-16gb-512gb-ssd-rtx-4050-156.jpg" alt="Acer nitro v15 anv15-51-579p intel core i5-13420h/16gb/215gb ssd/rtx4050">
+            <p>Acer nitro v15 anv15-51-579p intel core i5-13420h/16gb/215gb ssd/rtx4050/15.6</p>
+            <p>499,99€</p>
+        </a>
+        <a href="https://www.pccomponentes.com/acer-aspire-3-a315-23-r4xj-amd-ryzen-5-3500u-8gb-512gb-ssd-156" target="_blank" rel="noopener">
+            <img src="https://thumb.pccomponentes.com/w-530-530/articles/17/171676/acer-aspire-3-a315-23-r4xj-amd-ryzen-5-3500u-8gb-512gb-ssd-156.jpg" alt="Acer Aspire 3 A315-23-R4XJ AMD Ryzen 5 3500U/8GB/512GB SSD/15.6">
+            <p>Acer Aspire 3 A315-23-R4XJ AMD Ryzen 5 3500U/8GB/512GB SSD/15.6</p>
+            <p>499,99€</p>
+        </a>
+        <a href="https://www.pccomponentes.com/acer-aspire-3-a315-23-r4xj-amd-ryzen-5-3500u-8gb-512gb-ssd-156" target="_blank" rel="noopener">
+            <img src="https://thumb.pccomponentes.com/w-530-530/articles/17/171676/acer-aspire-3-a315-23-r4xj-amd-ryzen-5-3500u-8gb-512gb-ssd-156.jpg" alt="Acer Aspire 3 A315-23-R4XJ AMD Ryzen 5 3500U/8GB/512GB SSD/15.6">
+            <p>Acer Aspire 3 A315-23-R4XJ AMD Ryzen 5 3500U/8GB/512GB SSD/15.6</p>
+            <p>499,99€</p>
 </body>
 </html>
